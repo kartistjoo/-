@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "command -v yt-dlp >/dev/null 2>&1 || pip install -q yt-dlp >/dev/null 2>&1 || true"
+          }
+        ]
+      }
+    ]
+  }
+}
